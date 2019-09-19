@@ -1,0 +1,29 @@
+h1 {
+    font-size: 72px;
+    color: red;
+    text-align: center;
+    background-color: black
+}
+
+h2 {
+    font-size: 56px;
+    color: blue;
+    background-color: black;
+    text-align: center
+}
+
+h3 {
+    font-size: 40px;
+    color: green;
+}
+
+.info {
+    width: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: end;
+    background-color: black;
+    color: white;
+    padding: 15px
+}
+

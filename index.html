@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Un-Redacted Report</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>The Mueller Report</h1>
+
     <h2>The Un-Redacted Version</h2>
 
     <img src="https://www.economist.com/sites/default/files/imagecache/1280-width/images/print-edition/20181208_USD001_0.jpg">
 
-    <h3>We need your help un-redacting!</h3>
-    <form>
+    <h3 class="help">We need your help un-redacting!</h3>
+    <article class="info">
         Title of Section <input type="text" name="cat"><br>
         Heading <input type="text" name="title"><br>
         Name of a Person <input type="text" name="person1"><br>
@@ -24,27 +27,7 @@
         Problem <input type="text" name="problem"><br>
         Famous Person <input type="text" name="famous"><br>
         Topic of Debate <input type="text" name="debate"><br>
-        <input type="submit" value="submit">
-
-    </form>
-
-    <article>
-    <p>D. Trump Campaign and the Dissemination of Hacked Materials ..... 51 <br />
-        <ol> <span id="cat"></span> ......... 51<br />
-            <li>Backgroung ......... 51</li>
-            <li>Contacts with the Campaign about WikiLeaks ......... 52 </li>
-            <li><span id="title"></span> ......... 54</li>
-            <li>WikiLeak’s October 7, 2016 Release of Stolen Podesta Emails ......... 58</li>
-        </ol> 
-    </p>
-    <p>On October 20, 2017, the Acting Attorney General confirmed in a memorandum the Special Counsel’s investigative authority as to several individuals and entities. First, “as part of a full and thorough investigation of the Russian government’s efforts to interfere in the 2016 presidential election,” the Special Counsel was authorized to investigate “the pertinent activities of Michael Cohen, Richard Gates, Roger Stone and <span id="person1"></span>”
-    </p>
-    
-    <p>The Trump Campaign showed interest in the WikiLeaks releases and, in the summer and fall of 2016, they <span id="ptAction"></span>. After <span id="event"></span> , WikiLeaks’s first Clinton-related release of <span id="release"></span>, the Trump Campaign stayed in contact with <span id="group"></span> about WikiLeaks’s activities. The investigation was unable to resolve <span id="problem"></span>.
-    </p>
-    
-    <p>Mifsud is a Maltese national who worked as a professor at the London Academy of Diplomacy in London, England. Among his contacts was <span id="famous"></span>, a one-time employee of the IRA, the entity that carried out the Russian social media campaign. In January and February  2016, Mifsud and <span id=famous></span> discussed <span id="debate"></span> . The investigation did not identify evidence of them meeting in agreement.</p>
-</article>
-    
+        <button onclick="onClick()">Submit</button>
+    </article>
 </body>
 </html>
