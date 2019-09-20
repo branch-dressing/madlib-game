@@ -48,8 +48,7 @@ function onClick() {
     const debate = debateInput.value;
     const debateBox = document.getElementById('debate');
     debateBox.textContent = debate;
+
+    madLib.style.display = "block"
+
 };
-
-
-
-
